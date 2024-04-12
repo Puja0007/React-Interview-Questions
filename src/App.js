@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 
+import ExampleUseRef from './components/ExampleUseRef';
+import ExampleUseMemo from './components/ExampleUseMemo';
+import ExampleuseCallback from './components/ExampleuseCallback';
+import ExampleUsereducer from './components/ExampleUsereducer';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+     {/* <apiCallWithDebounce /> */}
+     
+
       </header>
+      <ExampleUseRef />
+      <ExampleUseMemo />
+      <ExampleuseCallback  name="puja"/>
+      <ExampleUsereducer />
     </div>
   );
 }

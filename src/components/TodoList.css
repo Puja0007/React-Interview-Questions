@@ -1,0 +1,18 @@
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .todo-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .todo-list .completed {
+    text-decoration: line-through;
+  }
+  
